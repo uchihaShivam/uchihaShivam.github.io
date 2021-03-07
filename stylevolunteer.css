@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+    padding: 0px;
+} 
+  .heading{
+    display: flex;
+    flex-direction: row;
+    /*flex-wrap: wrap;*/
+  }
+  .first{
+    flex-basis: 320px;
+    background-color: rgb(166,225,47);
+  }
+  .second{
+    flex-basis: 632px;
+    background-color: rgb(166,225,47);
+    text-align: center;
+  }
+  .img{
+    flex-basis: 402px;
+    background-color: rgb(166,225,47);
+  }
+  #topic1 , 
+  #topic2{
+    color: rgb(0,0,0);
+    font-size: 50px;
+    font-weight: bolder;
+  }
+  .sub-topic{
+    font-weight: lighter;
+    color: rgb(24,13,65);
+  }
+  #topnav{
+ z-index: 1;
+  margin-bottom: 10px;
+  height: 8%;
+  width: 120%;
+  /*border-radius: 4px;*/
+  background-color:rgb(30,124,135);
+  overflow: hidden;
+  font-family: Pacifio;
+  position:sticky;
+  top: 0;
+}
+
+/* Style the links inside the navigation bar */
+#topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px 17px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Change the color of links on hover */
+#topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+#topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+#topic {
+    text-align: center;
+    background-color: orange;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    transform: translateY(-8px);
+}
+/*card*/
+
+/*footer part*/
+.footer{
+  background-color: black;
+  margin: auto 0;
+  padding: 10px;
+  height:400px;
+}
+.quick{
+  margin-left: 130px;
+  margin-top: 75px;
+}
+.h3{
+  color:#ddd;
+}
+.links{
+  text-decoration: none;
+  color: #ddd;
+}
+.links:hover{
+  color:blue;
+}
+.social{
+  color: #ddd;
+  float: right;
+  transform: translateY(-150%);
+  /*margin-right: 50px;*/
+}
+.h2{
+  text-align: center;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter{
+  background: #55ACEE;;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram {
+  background: #ddd;
+  color: red;
+}
+.copyright{
+  color:#ddd;
+  margin-left: 60px;
+  margin-top: 30px;
+}
